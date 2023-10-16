@@ -1,0 +1,182 @@
+/*sets all elements box size, padding, and margin*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*sets background color of page*/
+body {
+    background-color: #002555;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font: 0.9em/1.2 Arial,
+    Helvetica,
+    sans-serif;
+    color:rgb(225 200 244 / 59%);
+    
+}
+
+/*sets font, padding, color and bakground color of header*/
+.header {
+    padding: 20px;
+    font-family: 'Party LET', 'Helvetica', sans-serif;
+    background-color: #190411d9;
+    color: #ded5ffd6; 
+}
+
+/*sets backgroung image size, position, margin, and URL*/
+.Choices {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/*sets width, display type, and margin to SEO, ORM, SSM blocks*/
+.Sections {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*sets image to right of text in same box*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+    width: 300px;
+    border-radius: 43px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px rgb(82, 66, 255), 0 0 15px rgb(124, 98, 255);
+}
+
+/*sets font size for header*/
+.header h1 {
+    display: inline-block;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*adds type selector for font size*/
+p {
+    font-size: 30px;
+}
+
+.Contact-Info {
+    width: auto;
+    height: auto;
+}
+
+.My-Work {
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+li {
+    flex: 2 2 10%;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+a:hover {
+    color: rgb(14 0 188);
+    background: #ded5ffd6;
+}
+
+.far-right {
+    float:right;
+    width: 150px;
+    margin: 8px;
+    border-radius: 43px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px rgb(82, 66, 255), 0 0 15px rgb(124, 98, 255);
+}
+
+.About-Me pre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.My-Work pre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+
+.Contact-Info pre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+
+.footer p {
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+}
+
+.footer h5 {
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+}
+
+.Contact-Info li {
+    list-style-type: square;
+    text-align: center;
+    text-wrap: wrap;
+    list-style: inside;
+}
+
+.Contact-Info img {
+    max-height: 200px;
+}
+ 
+.header li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+.header a::after {
+    display: inline-block;
+     content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+  
